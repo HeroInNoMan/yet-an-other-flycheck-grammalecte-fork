@@ -1,0 +1,34 @@
+#+TITLE: Yet An Other Flycheck Grammalecte Fork
+
+Forké depuis : https://gitlab.com/geeklhem/flycheck-grammalecte
+
+Simple encapsulation de l’outil de correction grammaticale [Grammalecte](http://www.dicollecte.org/grammalecte/) et du paquet emacs [flycheck](http://www.flycheck.org/).
+
+[[demo.gif]]
+
+
+* Version of Grammalecte
+  - Grammacalecte : 0.5.17
+  - Version of dictionnary : 6.0.2
+  - Version of Yet An Other Flycheck Grammacalecte Fork : 0.2
+
+* Utilisation
+
+  Dans un buffer en mode « org-mode », tapez les commandes suivantes :
+  - `M-x flycheck-mode`
+  - `M-x flycheck-select-checker` et choisir `francais-grammalecte`
+
+* Avertissement
+
+  Ce paquet n’est pour le moment qu’une rapide bidouille. Aucun effort n’a été fait pour faciliter le processus d’installation. N’hésitez pas à contribuer !
+
+* TODO
+  - [X] Changer le processus d’installation.
+  - [X] Mettre les fichiers au clair entre ceux de grammacalecte-python et grammacalecte.el.
+  - [X] Vérifier le processus de packaging pour MELPA.
+  - [X] Mettre le [[README.org]] en français.
+  - [ ] Corriger le bug des « espaces insécable » dans org-mode.
+  - [ ] Stopper les corrections des options org-mode (#+TITLE ...).
+  - [ ] Stopper la correction de l’apostrophe et les guillemets typographiques.
+  - [ ] Vérifier si les « ajouts dans le dictionnaire » sont pris en compte.
+  - [ ] Publier sur MELPA.

@@ -1,6 +1,6 @@
 #+TITLE: Yet An Other Flycheck Grammalecte Fork
 
-Forked  of : https://gitlab.com/geeklhem/flycheck-grammalecte
+Forked from : https://gitlab.com/geeklhem/flycheck-grammalecte
 
 Simple wrapper for the french language checking tool [Grammalecte](http://www.dicollecte.org/grammalecte/) and the [flycheck](http://www.flycheck.org/) emacs package.
 
@@ -14,18 +14,18 @@ Simple wrapper for the french language checking tool [Grammalecte](http://www.di
 
 * Usage
 
-In a org-buffer, type `M-x flycheck-mode`, `M-x flycheck-select-checker` and `francais-grammalecte`.
+  In a org-buffer, type `M-x flycheck-mode`, `M-x flycheck-select-checker` and `francais-grammalecte`.
 
 * Warning
-  This package is currently a quick hack-around. No particular care has been taken to streamline the installation process. Feel free to contribute
+  This package is currently a quick hack-around. No particular care has been taken to streamline the installation process. Feel free to contribute.
 
 * TODO
-  - [X] Changement du process d'installation.
-  - [X] Mettre les fichiers au clair entre ceux de grammacalecte-python et grammacalecte.el
-  - [X] Vérification du process de packaging pour melpa.
-  - [ ] Mettre le [[README.org]] en français ?
-  - [ ] Stopper le bug des "espaces insécable" dans org-mode.
-  - [ ] Stopper les corrections des options org-mode (#+TITLE ...).
-  - [ ] Stopper la correction de l'apostrophe et les guillemets typographique.
-  - [ ] Checker si les "ajouts dans le dictionnaire" sont pris en compte.
-  - [ ] Push sur Melpa
+  - [X] Change the install process.
+  - [X] Make things clear between grammacalecte-python and grammacalecte.el files.
+  - [X] Check packaging process for MELPA.
+  - [X] Translate [[README.org]] file in French.
+  - [ ] Correct the “unbreakable space” bug in org-mode.
+  - [ ] Stop correcting org-mode options (#+TITLE ...).
+  - [ ] Stop correcting apostrophes and typographic quotes.
+  - [ ] Check whether “add to dictionnary” works.
+  - [ ] Push on MELPA
